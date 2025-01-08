@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samita Timsina | Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="images/my.jpg" alt="Samita Timsina" class="profile-pic">
+            <h1>Samita Timsina</h1>
+            <p>Web Developer | Designer </p>
+            <nav>
+                <ul>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                    <li><a href="#accomplishments"class="nav-link">Accomplishments</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="about" class="section">
+            <h2>About Me</h2>
+            <p>Hello! I'm Samita Timsina a passionate student. There's nothing more!!!!</p>
+        </section>
+        <section id="portfolio" class="section">
+            <h2>Portfolio</h2>
+            <div class="grid">
+                <div class="portfolio-item">
+                    <img src="images/projects.png" alt="Project 1">
+                    <h3>Empty</h3>
+                    <p>Keeping it empty now.</p>
+                </div>
+                <div class="portfolio-item">
+                    <img src="images/projects.png" alt="Project 2">
+                    <h3>maybe</h3>
+                    <p>not</p>
+                </div>
+            </div>
+        </section>
+        <section id="accomplishments" class="section">
+            <h2>Accomplishments</h2>
+            <ul>
+                <li>Award or Recognition</li>
+                <li>Certification or Course Completion</li>
+                <li>Other Achievements</li>
+            </ul>
+        </section>
+        <section id="contact" class="section">
+            <h2>Contact Me</h2>
+            <p>I'd love to hear from you! Reach out to me at <a href="mailto:samitatimsina910@gmail.com">samitatimsina910@gmail.com</a> or you can leave a message below!</p>
+        <form id="contact-form" action="process_form.php" method="post">
+            <div>
+                <label for="name">Your name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            </div>
+            <div>
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+            <div>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Enter your message here....." required></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+        </form>
+        </section>
+    </main>
+    <footer>
+        <footer>
+            <div class="social-links">
+              <a href="https://www.facebook.com/samita.timsina" target="_blank" class="social-icon">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="https://www.instagram.com/samitatimsina955" target="_blank" class="social-icon">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/yourprofile" target="_blank" class="social-icon">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+          </footer>
+          
+        <p>© 2025 Samita Timsina. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
