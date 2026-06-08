@@ -1,4 +1,4 @@
-/* ========== DESIGN SYSTEM ========== */
+
 :root {
     --bg: #162238;
     --surface: #1b2a41;
@@ -14,7 +14,7 @@
     --border: rgba(227, 240, 255, 0.15);
 }
 
-/* ========== RESET ========== */
+
 * {
     margin: 0;
     padding: 0;
@@ -28,7 +28,6 @@ body {
     color: var(--text);
 }
 
-/* ========== TYPOGRAPHY ========== */
 h1, h2, h3 {
     color: var(--text);
 }
@@ -37,7 +36,6 @@ p {
     color: black
 }
 
-/* ========== HEADER ========== */
 header {
     background: linear-gradient(135deg, #162238, #1b2a41);
     text-align: center;
@@ -66,7 +64,6 @@ header p {
     color: var(--muted);
 }
 
-/* ========== NAVIGATION ========== */
 nav ul {
     list-style: none;
     display: flex;
@@ -106,8 +103,6 @@ nav ul {
 .section p {
     padding-bottom: 2rem;
 }
-
-/* ========== GRID ========== */
 .grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -123,7 +118,6 @@ nav ul {
     font-size: x-large;
 }
 
-/* ========== PORTFOLIO CARD ========== */
 .portfolio-item {
     background: white;
     border-radius: 18px;
@@ -145,7 +139,6 @@ a {
     border-color: var(--accent);
 }
 
-/* IMAGE */
 .portfolio-item img {
     width: 100%;
     height: 200px;
@@ -159,7 +152,7 @@ a {
     transform: scale(1.05);
 }
 
-/* CONTENT */
+
 .portfolio-item h3 {
     margin: 1rem;
     color: #162238;
@@ -171,7 +164,6 @@ a {
     font-size: 0.95rem;
 }
 
-/* LINK */
 .portfolio-item a {
     margin: 1rem;
     color: var(--accent);
@@ -184,13 +176,12 @@ a {
     transform: translateX(4px);
 }
 
-/* ========== SKILLS ========== */
+
 #Skills {
     color: #162238;
     font-weight: 500;
 }
 
-/* ========== SKILLS GRID ========== */
 .skills-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
@@ -199,7 +190,6 @@ a {
     margin: 2rem auto 0;
 }
 
-/* ========== SKILL CARD ========== */
 .skill-card {
     background: linear-gradient(135deg, #ffffff, #f8fafc);
     border-radius: 16px;
@@ -217,7 +207,6 @@ a {
     border-color: var(--accent);
 }
 
-/* ========== FORM ========== */
 form {
     max-width: 600px;
     margin: auto;
@@ -272,7 +261,6 @@ form button:hover {
     box-shadow: 0 10px 25px rgba(215, 163, 26, 0.3);
 }
 
-/* ========== SOCIAL LINKS ========== */
 .social-links {
     display: flex;
     justify-content: center;
@@ -299,7 +287,6 @@ form button:hover {
     transform: translateY(-5px);
 }
 
-/* ========== FOOTER ========== */
 footer {
     background: #ededf6;
     color: var(--text);
@@ -307,7 +294,6 @@ footer {
     padding: 2rem;
 }
 
-/* ========== ANIMATION ========== */
 @keyframes fadeUp {
     from {
         opacity: 0;
@@ -319,7 +305,6 @@ footer {
     }
 }
 
-/* ========== RESPONSIVE ========== */
 @media (max-width: 768px) {
     header h1 {
         font-size: 2rem;
